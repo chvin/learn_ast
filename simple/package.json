@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "babel test/index.js --out-file test/dist.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0"
+  }
+}

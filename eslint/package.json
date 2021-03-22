@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "rm -rf node_modules/eslint-plugin-my-eslint-plugin && cp -rf my-eslint-plugin node_modules/eslint-plugin-my-eslint-plugin && npm run lint",
+    "lint": "eslint ./test"
+  },
+  "dependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-my-eslist-plugin": "./my-eslint-plugin"
+  }
+}
